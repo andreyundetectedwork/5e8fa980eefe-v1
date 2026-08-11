@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr Food Podgorica — Pizze, Bureci, Sendviči & Kafa | EST. 2015</title>
+    <meta name="description" content="Dr Food u Podgorici (Ljubljanska). Svježe pice, tradcionalni bureci i pite, bogati sendviči, priganice i vrhunska kafa. Pozovite +38269015666.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Dr Food Podgorica — Pizze, Bureci & Sendviči">
+    <meta property="og:description" content="Ukusna i svježa hrana svakog dana u Podgorici. Pice, bureci, sendviči, priganice i topli napici.">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon SVG -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍕</text></svg>">
+    
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="site-header" id="header">
+        <div class="container header-container">
+            <a href="#" class="brand-logo">
+                <span class="logo-badge">EST. 2015</span>
+                <span class="logo-text"><span class="logo-dr">Dr</span> Food</span>
+            </a>
+
+            <nav class="main-nav" id="mainNav">
+                <a href="#menu" class="nav-link" data-i18n="nav_menu">Meni</a>
+                <a href="#about" class="nav-link" data-i18n="nav_about">O nama</a>
+                <a href="#reviews" class="nav-link" data-i18n="nav_reviews">Utisci</a>
+                <a href="#contact" class="nav-link" data-i18n="nav_contact">Kontakt</a>
+            </nav>
+
+            <div class="header-actions">
+                <!-- Language Switcher -->
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="sr">SR</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                </div>
+
+                <a href="tel:+38269015666" class="btn btn-primary btn-sm header-call-btn">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    <span data-i18n="call_now">Pozovi</span>
+                </a>
+
+                <button class="hamburger" id="hamburger" aria-label="Meni">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-menu-overlay" id="mobileMenu">
+        <div class="mobile-menu-content">
+            <button class="mobile-close" id="mobileClose">&times;</button>
+            <div class="mobile-brand">
+                <span class="logo-text"><span class="logo-dr">Dr</span> Food</span>
+                <span class="logo-sub">Podgorica • EST. 2015</span>
+            </div>
+            <nav class="mobile-nav">
+                <a href="#menu" class="mobile-nav-link" data-i18n="nav_menu">Meni</a>
+                <a href="#about" class="mobile-nav-link" data-i18n="nav_about">O nama</a>
+                <a href="#reviews" class="mobile-nav-link" data-i18n="nav_reviews">Utisci</a>
+                <a href="#contact" class="mobile-nav-link" data-i18n="nav_contact">Kontakt</a>
+            </nav>
+            <div class="mobile-menu-footer">
+                <a href="tel:+38269015666" class="btn btn-primary btn-block">
+                    📞 +382 69 015 666
+                </a>
+                <p class="mobile-address">📍 Ljubljanska, Podgorica</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge-row">
+                    <span class="badge badge-accent">⭐ 4.3 Google</span>
+                    <span class="badge badge-outline">EST. 2015</span>
+                </div>
+                <h1 class="hero-title" data-i18n="hero_title">
+                    Svježe, toplo i ukusno u srcu Podgorice
+                </h1>
+                <p class="hero-subtitle" data-i18n="hero_subtitle">
+                    Hrskave pice, tradicionalni bureci i pite, bogati sendviči i vrhunska kafa. Pripremljeno za vas svakog dana na Ljubljanskoj.
+                </p>
+                <div class="hero-cta-group">
+                    <a href="#menu" class="btn btn-primary btn-lg" data-i18n="hero_btn_menu">Pogledaj Meni</a>
+                    <a href="tel:+38269015666" class="btn btn-secondary btn-lg">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        <span>+382 69 015 666</span>
+                    </a>
+                </div>
+                
+                <div class="hero-info-pills">
+                    <div class="info-pill">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                        <div>
+                            <strong data-i18n="hours_label">Radno vrijeme:</strong>
+                            <span data-i18n="hours_val">Pon-Pet: 07-18h | Sub: 07-17h</span>
+                        </div>
+                    </div>
+                    <div class="info-pill">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        <div>
+                            <strong data-i18n="address_label">Lokacija:</strong>
+                            <span>Ljubljanska, Podgorica</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-media">
+                <div class="hero-image-wrapper">
+                    <img src="assets/img_01.jpg" alt="Apetitlička picerija Dr Food Podgorica sa toplim sirom" class="hero-img main-img" loading="eager">
+                    <div class="hero-floating-card">
+                        <div class="floating-icon">🍕</div>
+                        <div>
+                            <strong data-i18n="hero_float_title">Pice & Bureci</strong>
+                            <span data-i18n="hero_float_desc">Pečeno sa pažnjom svakog jutra</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visual Categories Grid / Highlights -->
+    <section class="section showcase-section" id="about">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tagline" data-i18n="showcase_tagline">Naša Ponuda</span>
+                <h2 class="section-title" data-i18n="showcase_title">Zašto nas Podgorica voli od 2015. godine</h2>
+            </div>
+
+            <div class="showcase-grid">
+                <div class="showcase-card">
+                    <div class="showcase-img-holder">
+                        <img src="assets/img_01.jpg" alt="Sočne pice na drvenoj podlozi" loading="lazy">
+                    </div>
+                    <div class="showcase-content">
+                        <h3 data-i18n="sc_1_title">🍕 Pize po vašoj mjeri</h3>
+                        <p data-i18n="sc_1_desc">Pripravljene po tradicionalnom receptu sa bogatim sastojcima i hrskavom koricom u veličinama 180g i 360g.</p>
+                    </div>
+                </div>
+
+                <div class="showcase-card">
+                    <div class="showcase-img-holder">
+                        <img src="assets/img_02.jpg" alt="Tradicijski domaći burek i hrskave pite" loading="lazy">
+                    </div>
+                    <div class="showcase-content">
+                        <h3 data-i18n="sc_2_title">🥟 Domaći Burek & Pite</h3>
+                        <p data-i18n="sc_2_desc">Sveže pečen burek i pite sa sirom, mesom, spanaćem ili krompirom. Idealan doručak uz domaći jogurt.</p>
+                    </div>
+                </div>
+
+                <div class="showcase-card">
+                    <div class="showcase-img-holder">
+                        <img src="assets/img_04.jpg" alt="Bogati sendviči sa pršutom i svežim povrćem" loading="lazy">
+                    </div>
+                    <div class="showcase-content">
+                        <h3 data-i18n="sc_3_title">🥪 Sendviči & Tortilje</h3>
+                        <p data-i18n="sc_3_desc">Pršut, kulen, piletina, tunjevina ili povrće sa finim kremastim kajmakom i svežom salatom.</p>
+                    </div>
+                </div>
+
+                <div class="showcase-card">
+                    <div class="showcase-img-holder">
+                        <img src="assets/img_03.jpg" alt="Topli cappuccino sa latfe artom" loading="lazy">
+                    </div>
+                    <div class="showcase-content">
+                        <h3 data-i18n="sc_4_title">☕ Kafa & Osveženja</h3>
+                        <p data-i18n="sc_4_desc">Vrhunski espresso, cappuccino, Deutch kafa, domaća kuvana kafa, kao i prirodni cijeđeni sokovi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Menu Section -->
+    <section class="section menu-section" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <div>
+                    <span class="section-tagline" data-i18n="menu_tagline">Kompletan Jelovnik</span>
+                    <h2 class="section-title" data-i18n="menu_title">Dr Food Meni</h2>
+                </div>
+                <div class="menu-search-wrapper">
+                    <input type="text" id="menuSearch" class="menu-search-input" placeholder="Pretraži meni (npr. Capricciosa, Burek...)" data-i18n-ph="menu_search_ph">
+                    <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </div>
+            </div>
+
+            <!-- Category Filter Pills -->
+            <div class="category-scroll-container">
+                <div class="category-pills" id="categoryPills">
+                    <!-- Dynamic Pills inserted by JS -->
+                </div>
+            </div>
+
+            <!-- Menu Content Area -->
+            <div class="menu-display" id="menuDisplay">
+                <!-- Rendered dynamically by main.js for responsive multi-lang support -->
+            </div>
+
+            <div class="menu-footer-note">
+                <p>ℹ️ <em>Knjiga žalbe nalazi se u šanku. / Complaint book is located at the bar.</em></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="section reviews-section" id="reviews">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tagline" data-i18n="reviews_tagline">Gostoprimstvo & Kvalitet</span>
+                <h2 class="section-title" data-i18n="reviews_title">Šta kažu naši gosti</h2>
+                <div class="rating-summary">
+                    <span class="rating-score">4.3</span>
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <span class="rating-count" data-i18n="reviews_google">na Google recenzijama</span>
+                </div>
+            </div>
+
+            <div class="reviews-grid" id="reviewsGrid">
+                <!-- Rendered by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Info Section -->
+    <section class="section info-section" id="contact">
+        <div class="container">
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3 data-i18n="contact_heading">Radno Vrijeme & Lokacija</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <strong data-i18n="contact_address_label">Adresa:</strong>
+                            <p>Ljubljanska, Podgorica, Crna Gora</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <strong data-i18n="contact_phone_label">Telefon za narudžbe & informacije:</strong>
+                            <p><a href="tel:+38269015666" class="phone-link">+382 69 015 666</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">🕒</div>
+                        <div>
+                            <strong data-i18n="contact_hours_label">Radno vrijeme:</strong>
+                            <ul class="hours-list">
+                                <li><span data-i18n="mon_fri">Ponedjeljak — Petak:</span> <strong>07:00 – 18:00</strong></li>
+                                <li><span data-i18n="sat">Subota:</span> <strong>07:00 – 17:00</strong></li>
+                                <li><span data-i18n="sun">Nedjelja:</span> <span class="closed-tag" data-i18n="closed">Zatvoreno</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="contact-action">
+                        <a href="tel:+38269015666" class="btn btn-primary btn-block">
+                            📞 <span data-i18n="call_btn_text">Pozovi za dostavu / preuzimanje</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="map-card">
+                    <div class="map-placeholder">
+                        <div class="map-content">
+                            <span class="map-pin">📍</span>
+                            <h4>Dr Food Podgorica</h4>
+                            <p>Ljubljanska, Podgorica</p>
+                            <a href="https://maps.google.com/?q=Ljubljanska+Podgorica" target="_blank" rel="noopener" class="btn btn-secondary btn-sm" data-i18n="open_gmaps">
+                                Otvori u Google Mapama ↗
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <span class="logo-text"><span class="logo-dr">Dr</span> Food</span>
+                <p data-i18n="footer_sub">Brza hrana & pekara sa tradicijom od 2015. godine u Podgorici.</p>
+            </div>
+            
+            <div class="footer-links">
+                <a href="#menu" data-i18n="nav_menu">Meni</a>
+                <a href="#about" data-i18n="nav_about">O nama</a>
+                <a href="#reviews" data-i18n="nav_reviews">Utisci</a>
+                <a href="#contact" data-i18n="nav_contact">Kontakt</a>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Dr Food. Sva prava zadržana.</p>
+                <p class="complaint-note">Knjiga žalbe nalazi se u šanku.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Mobile Action Bar -->
+    <div class="mobile-float-bar">
+        <a href="tel:+38269015666" class="btn btn-primary btn-float">
+            📞 <span data-i18n="float_call">Pozovi +382 69 015 666</span>
+        </a>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
